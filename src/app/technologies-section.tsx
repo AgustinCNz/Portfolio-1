@@ -47,7 +47,7 @@ export default function TechnologiesSection() {
             </div>
             <div className="flex flex-wrap">
                 {technologies.map((item) => (
-                <div className="flex py-1 sm:py-1.5 px-2 sm:px3 md:px-4 mr-2 mb-2 bg-slate-900 rounded-xl items-center gruop duration-150">
+                <div className="flex py-1 sm:py-1.5 px-2 sm:px3 md:px-4 mr-2 mb-2 bg-slate-900 rounded-xl items-center group duration-150">
                     <Image src={item.icon_path} alt={`Technology icon - ${item.label}`} width={40} height={40} className="group-hover:-rotate-[20deg] transition-all ease-in-out duration-150 w-10 h-10 sm:w-12 sm:h-12 p-1" />
                     <span className="ml-2 sm:ml-3 md:ml-4 text-gray-200 text-sm tracking-wide font-bold cursor-default">
                         {item.label}
